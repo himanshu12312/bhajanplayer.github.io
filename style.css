@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+.logo{
+    padding: 0 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 12vh;
+    background-color: antiquewhite;
+    padding: 0 40px ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li{
+    font-weight: bolder;
+    font-size: 3 rem;
+}
+
+ul li{
+    padding: 0 50px;
+}
+
+
+.container{
+    min-height: 74vh;
+    background-image: url('./im/b5.jpg');
+
+
+}
+
+.bottom{
+
+    background-color: antiquewhite;
+    height: 15vh;
+    color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#progressbar{
+    width: 90%;
+    cursor: pointer;
+}
+
+.icon{
+     cursor: pointer;
+}
+
+.songitem{
+    height: 25px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 20%;
+    margin: 5px;
+    font-weight: bolder;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 12px 20px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    margin: 60px 20px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.itemplay{
+    cursor: pointer;
+}
